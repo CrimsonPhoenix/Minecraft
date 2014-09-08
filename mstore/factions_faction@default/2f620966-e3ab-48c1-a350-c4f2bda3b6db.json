@@ -1,0 +1,50 @@
+{
+  "name": "Gaurhoth",
+  "description": "Army of Oira Hrivenore, eternal winterlands of the north.",
+  "createdAtMillis": 1393219326414,
+  "home": {
+    "w": "world",
+    "lx": 802.6040863986779,
+    "ly": 78.0,
+    "lz": -3055.6276621531038,
+    "p": 53.699917,
+    "y": 176.08635
+  },
+  "powerBoost": 300.0,
+  "invitedPlayerIds": [
+    "7d059050-a571-45b3-9e4b-95bbfb47ccfd",
+    "@console",
+    "c39150dd-cf40-4057-ae12-7b625d4128ea"
+  ],
+  "relationWishes": {
+    "53807349-7026-4a95-939e-5d57aa4a5625": "ALLY",
+    "3c7eb33b-1fac-476a-83a0-8898ec9c4a5d": "TRUCE",
+    "443798d3-640f-41a4-90c4-ed58aef32acb": "ALLY",
+    "767ff4d8-6802-4eb6-a690-4f79ad0653a8": "ALLY",
+    "fb449773-6e43-475b-8d80-e5e62c67fc75": "ALLY",
+    "cba6e992-7f8d-4d76-9597-4c3df2768429": "ALLY"
+  },
+  "flags": {
+    "PERMANENT": true,
+    "PVP": false,
+    "OFFLINE_EXPLOSIONS": true,
+    "FIRESPREAD": false
+  },
+  "perms": {
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "NEUTRAL",
+      "ALLY",
+      "RECRUIT",
+      "TRUCE"
+    ]
+  }
+}

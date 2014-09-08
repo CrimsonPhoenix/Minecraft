@@ -1,0 +1,50 @@
+#####################################################################
+##                Database of UUID <-> Player names                ##
+## If you don't understand something, please ask on dev.bukkit.org ##
+##                                                          Ribesg ##
+#####################################################################
+
+# Please don't modify this file, you could break everything.
+
+# Player 'Mr_Admin_Guy'
+# Offline-mode UUID: 02b00fc3-c2f5-3669-80e7-b3f780af463f
+7d059050-a571-45b3-9e4b-95bbfb47ccfd:
+  lastKnownName: Mr_Admin_Guy
+  firstSeen: 1408990763767 # 2014-08-25T14h19Z
+  lastSeen: 1408990763767 # 2014-08-25T14h19Z
+
+# Player 'Speedy_Creeper'
+# Offline-mode UUID: 04a9686f-3254-3ccd-a0f2-5e305f9518d8
+f09ac1e4-597f-4ac0-bd11-eadbb89f9c65:
+  lastKnownName: Speedy_Creeper
+  firstSeen: 1409001602662 # 2014-08-25T17h20Z
+  lastSeen: 1409001602662 # 2014-08-25T17h20Z
+
+# Player 'xDark_Ace'
+# Offline-mode UUID: 8384d351-0fee-37ae-bcf7-63917a513579
+199cbe07-221b-48eb-ae85-f5beea6dfbe9:
+  lastKnownName: xDark_Ace
+  firstSeen: 1409003444002 # 2014-08-25T17h50Z
+  lastSeen: 1409003444002 # 2014-08-25T17h50Z
+
+# Player 'ScorchS12'
+# Offline-mode UUID: 5b31a711-7dd8-3ad4-9c15-027b56ba3724
+2bcbd4b2-7943-4c9e-8a1b-6b2f4bfde062:
+  lastKnownName: ScorchS12
+  firstSeen: 1409015196881 # 2014-08-25T21h06Z
+  lastSeen: 1409015196881 # 2014-08-25T21h06Z
+
+# Player 'Barthiouse'
+# Offline-mode UUID: 52ad7a84-e523-3523-bc90-80079782e1dc
+c39150dd-cf40-4057-ae12-7b625d4128ea:
+  lastKnownName: Barthiouse
+  firstSeen: 1409024653118 # 2014-08-25T23h44Z
+  lastSeen: 1409024653118 # 2014-08-25T23h44Z
+
+# Player 'medium_fry'
+# Offline-mode UUID: ec4732de-d624-3fc9-81c2-6c66750bcc86
+88a170ed-d178-4851-be4f-5dfc2ec461fa:
+  lastKnownName: medium_fry
+  firstSeen: 1409348702708 # 2014-08-29T17h45Z
+  lastSeen: 1409348702708 # 2014-08-29T17h45Z
+

@@ -1,0 +1,341 @@
+{
+  "aliasesOuterTickets": [
+    "t",
+    "tickets",
+    "ticket"
+  ],
+  "aliasesInnerTicketsList": [
+    "l",
+    "list"
+  ],
+  "aliasesOuterTicketsList": [],
+  "aliasesInnerTicketsShow": [
+    "s",
+    "show"
+  ],
+  "aliasesOuterTicketsShow": [],
+  "aliasesInnerTicketsCreate": [
+    "c",
+    "create"
+  ],
+  "aliasesOuterTicketsCreate": [
+    "helpop",
+    "modreq"
+  ],
+  "aliasesInnerTicketsDone": [
+    "d",
+    "done"
+  ],
+  "aliasesOuterTicketsDone": [],
+  "aliasesInnerTicketsPick": [
+    "p",
+    "pick"
+  ],
+  "aliasesOuterTicketsPick": [],
+  "aliasesInnerTicketsYield": [
+    "y",
+    "yield"
+  ],
+  "aliasesOuterTicketsYield": [],
+  "aliasesInnerTicketsHighscore": [
+    "hs",
+    "highscore"
+  ],
+  "aliasesOuterTicketsHighscore": [],
+  "aliasesInnerTicketsModlist": [
+    "m",
+    "modlist"
+  ],
+  "aliasesOuterTicketsModlist": [
+    "modlist"
+  ],
+  "aliasesInnerTicketsWorking": [
+    "w",
+    "working"
+  ],
+  "aliasesOuterTicketsWorking": [],
+  "aliasesInnerTicketsCheat": [
+    "cheat"
+  ],
+  "aliasesOuterTicketsCheat": [],
+  "aliasesInnerTicketsHearsound": [
+    "hearsound"
+  ],
+  "aliasesOuterTicketsHearsound": [],
+  "aliasesInnerTicketsVersion": [
+    "v",
+    "version"
+  ],
+  "aliasesOuterTicketsVersion": [],
+  "prefix": "<pink><T> ",
+  "excerptLength": 10,
+  "bumpOnJoinActive": true,
+  "bumpOnJoinPriority": "HIGH",
+  "bumpEachMinutes": 10.0,
+  "createReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "updateReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "doneReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "doneReactionNormal": {
+    "moderatorCommands": [
+      "ticket hearsound ORB_PICKUP,0.8,0.7 LEVEL_UP,1.0,1.0"
+    ],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "doneReactionLevel": {
+    "moderatorCommands": [
+      "ticket hearsound WITHER_SPAWN,0.5,1.4 ORB_PICKUP,0.8,0.7 LEVEL_UP,1.0,1.0"
+    ],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "pickReaction": {
+    "moderatorCommands": [
+      "msg {p}"
+    ],
+    "playerCommands": [
+      "msg {m}"
+    ],
+    "consoleCommands": []
+  },
+  "showReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "workingOnReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "workingOffReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "yieldReaction": {
+    "moderatorCommands": [],
+    "playerCommands": [],
+    "consoleCommands": []
+  },
+  "countToLevel": {
+    "0": {
+      "name": "Not a big help",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": []
+      }
+    },
+    "1": {
+      "name": "Almost nothing",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 297 1 name:Moldy_Bread",
+          "give {m} 263 1 name:Tiny_Piece_of_Antimatter"
+        ]
+      }
+    },
+    "3": {
+      "name": "It's Something",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 357 1 name:Cookie_of_Something"
+        ]
+      }
+    },
+    "5": {
+      "name": "A poor twerksman blames his tools",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 261 1 name:Bow_of_the_Trendy_Twerker unbreaking:3 lore:Let_the_Twerking_Commence!"
+        ]
+      }
+    },
+    "7": {
+      "name": "A ticket a day keeps the doctor away",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 373:8257 2"
+        ]
+      }
+    },
+    "10": {
+      "name": "Over 9... it's... Dinner Time!!!",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 297 1 name:Dinner_Bread",
+          "give {m} 260 1 name:Dinner_Apple",
+          "give {m} 373:8258 1 name:Dinner_Lemonade"
+        ]
+      }
+    },
+    "20": {
+      "name": "20 is Plenty!",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 371 20"
+        ]
+      }
+    },
+    "30": {
+      "name": "Remember: Sharing is Caring",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 354 3 name:Cake_of_Compassion"
+        ]
+      }
+    },
+    "40": {
+      "name": "Remember: Know thyself... you be fish?",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 349 1 name:{m}_the_Fish lore:You_are_holding_{m}_in_your_hand.|{m}_brings_fortune! fortune:3"
+        ]
+      }
+    },
+    "50": {
+      "name": "Honorable Helper",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 347 1 name:Honorable_Helper_{m}_{y}_{w} lore:{m}_did_50_tickets_Year_{y}_Week_{w}.|For_this_we_grant_the_Honorable_Helper_Award.|So_Hysterically_Honorable! unbreaking:3",
+          "give {m} 280 1 name:Pathetic_Pokingstick unbreaking:3 knockback:1 lore:What_an_outrageously_pathetic_poking_device!",
+          "money transaction null {m} {m} 200 MassiveTickets Honorable Helper"
+        ]
+      }
+    },
+    "60": {
+      "name": "Sandals of the Trendy Twerker",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 301 1 name:Sandals_of_the_Trendy_Twerker color:255,0,230 unbreaking:3 featherfalling:4 lore:Trendy_Sneakin'_YO!"
+        ]
+      }
+    },
+    "70": {
+      "name": "Pants of the Trendy Twerker",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 300 1 name:Pants_of_the_Trendy_Twerker color:255,0,230 unbreaking:3 lore:The_NO1_Dancefloor_Choice!"
+        ]
+      }
+    },
+    "80": {
+      "name": "Vest of the Trendy Twerker",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 299 1 name:Vest_of_the_Trendy_Twerker color:255,0,230 unbreaking:3 lore:This_Vest_be_PHAT_and_makes_ya_curves_POP_YO!"
+        ]
+      }
+    },
+    "90": {
+      "name": "Headband of the Trendy Twerker",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 147 1 name:Headband_of_the_Trendy_Twerker respiration:3 aquaaffinity:1 lore:You'll_se_nothn'_my_niqqa_but_it's_all_'bout_the_feeeel!"
+        ]
+      }
+    },
+    "99": {
+      "name": "Close but no Cigar",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 391 1 name:No_Cigar! lore:So_you_thought_this_was_a_cigar?|You're_wearing_that_trendy_headband_aren't_you? BaneofArthropods:3"
+        ]
+      }
+    },
+    "100": {
+      "name": "Magnificent Moderator",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 396 1 name:Magnificent_Moderator_{m}_{y}_{w} lore:{m}_did_100_tickets_Year_{y}_Week_{w}.|For_this_we_grant_the_Magnificent_Moderator_Award.|So_Marvelously_Magnificent! unbreaking:3",
+          "give {m} 369 1 name:Powerful_Pokingstick unbreaking:3 knockback:3 lore:Quite_a_powerful_poking_device!",
+          "give {m} 400 1 name:Pie_of_Prosperity lore:This_pie_is_so_hard_it's_almost_inedible.|Could_rather_be_used_to_bash_heads_in. looting:3",
+          "money transaction null {m} {m} 500 MassiveTickets Magnificent Moderator"
+        ]
+      }
+    },
+    "125": {
+      "name": "Master of the Ticket Fondue",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 282 10 name:Ticket_Fondue lore:It's_a_FONDUE_just_for_YOU!|Be_warned,_this_food_is_hot. FireAspect:1"
+        ]
+      }
+    },
+    "150": {
+      "name": "Potato Party with the Party Potatoes!",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 392 15 name:Party_Potato lore:Bring_ze_party_on!|No_party_poopers!|Only_potatoes_allowed! unbreaking:1"
+        ]
+      }
+    },
+    "199": {
+      "name": "Yes Cigar!",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "give {m} 396 1 name:Yes_Cigar!"
+        ]
+      }
+    },
+    "200": {
+      "name": "Tip-Top-Ticketeer",
+      "reaction": {
+        "moderatorCommands": [],
+        "playerCommands": [],
+        "consoleCommands": [
+          "money transaction null {m} {m} 700 MassiveTickets Tip-Top-Ticketeer"
+        ]
+      }
+    }
+  }
+}

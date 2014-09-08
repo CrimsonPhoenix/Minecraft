@@ -1,0 +1,89 @@
+{
+  "name": "DrazirahcTemple",
+  "description": "Holy Land and Temple of the Drazirahc people; Sanctuary for all the faithful",
+  "createdAtMillis": 1407113424552,
+  "home": {
+    "w": "world",
+    "lx": -254.61902716637516,
+    "ly": 74.0,
+    "lz": 3526.530514868946,
+    "p": 7.7058907,
+    "y": 270.0249
+  },
+  "relationWishes": {
+    "767ff4d8-6802-4eb6-a690-4f79ad0653a8": "ALLY"
+  },
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": true,
+    "INFPOWER": true,
+    "POWERLOSS": false,
+    "PVP": false,
+    "MONSTERS": false,
+    "EXPLOSIONS": false,
+    "FIRESPREAD": false
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER"
+    ],
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "BUTTON": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "LEVER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "INVITE": [
+      "LEADER"
+    ],
+    "KICK": [
+      "LEADER"
+    ],
+    "SETHOME": [
+      "LEADER"
+    ],
+    "WITHDRAW": [
+      "LEADER"
+    ],
+    "TERRITORY": [
+      "LEADER"
+    ],
+    "ACCESS": [
+      "LEADER"
+    ]
+  }
+}

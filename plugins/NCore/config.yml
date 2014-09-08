@@ -1,0 +1,80 @@
+#####################################################################
+##                  Config file for NCore plugin                   ##
+## If you don't understand something, please ask on dev.bukkit.org ##
+##                                                          Ribesg ##
+#####################################################################
+# Allows you to disable the Updater system globally. Default : true
+# If this is set to false, everything related to updater will not work:
+# - Automatic check for updates
+# - The whole /updater command
+# - File download
+updateCheck: false
+
+# Interval between Update check, in seconds. Default : 43200
+#
+# Here are some example values:
+#   Value   --   Description
+#       1800: 30 minutes
+#       3600: 1 hour
+#       7200: 2 hours
+#      10800: 3 hours
+#      14400: 4 hours
+#      21600: 6 hours
+#      28800: 8 hours
+#      43200: 12 hours
+#      86400: 24 hours - 1 day
+#     172800: 48 hours - 2 days
+#
+# Note: Set this to 0 to disable automatic update check completely.
+# Note: This is not persistent through restarts.
+# Note: Values below 15 minutes are useless because of an internal cache.
+#
+updateCheckInterval: 43200
+
+# Enable update check for each specific node. Default: all nodes
+# Note: Will not consider unknown plugins nor unused nodes.
+checkFor:
+- NCore
+- NCuboid
+- NEnchantingEgg
+- NGeneral
+- NPlayer
+- NPermissions
+- NTalk
+- NTheEndAgain
+- NWorld
+
+# An API key is not required for the Updater to work,
+# but you can define one here. Default: empty
+#
+# For now, the API key has no use, but there may be an
+# anonymous request limitation in the future. If the Updater
+# starts to fail a lot for no reason, populate this.
+#
+# Note: Generate a key from https://dev.bukkit.org/home/servermods-apikey/
+#       You must be logged in.
+apiKey: 
+
+# Proxy informations for the Updater. Default: empty
+proxyHost: ""
+proxyPort: ""
+
+# Here you can translate what's written in every plugin when
+# a duration is printed.
+second: second
+seconds: seconds
+minute: minute
+minutes: minutes
+hour: hour
+hours: hours
+day: day
+days: days
+week: week
+weeks: weeks
+month: month
+months: months
+year: year
+years: years
+
+# Enables debug mode for each specific node. Default: empty
+debugEnabled:

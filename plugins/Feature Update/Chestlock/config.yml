@@ -1,0 +1,56 @@
+Chestlock:
+  Lock-on-place: true
+  Unlock-on-break: true
+  Damage: true
+  Damage-amount: '1'
+  version: 1.5
+  Default-public: false
+  Break-on-explode: false
+  Messages:
+    General:
+      Look: Look towards a [chest|furnace|hopper]. Trapped chests can not be locked.
+      Permissions: You don't have the right permissions to do this.
+      Notyours: This is not your TYPE, it got locked by NAME.
+      Noowner: This TYPE doesn't have an owner.
+      Steal: Don't try to steal stuff.
+    Command:
+      Help:
+        Help: This will show the help for this plugin.
+        Lock: This will lock the [chest|furnace|hopper] you are looking to. Not trapped chests.
+        Unlock: This will unlock the [chest|furnace|hopper] you are looking to.
+        Info: If you own this [chest|furnace|hopper] it will show all the information else it will show the owner.
+        Give: This will give the chest to NAME.
+        Public: This will make your [chest|furnace|hopper] public (accessible for everyone).
+        Private: This will make your [chest|furnace|hopper] private.
+        FriendAdd: Adds NAME to the friend list.
+        FriendRem: Removes NAME from the friend list.
+        AdminOpen: This will open a locked [chest|furnace|hopper].
+        AdminOver: This will put you as owner of the [chest|furnace|hopper].
+        AdminReload: This will reload the config.yml.
+      Lock:
+        Locked: This TYPE has now been locked.
+        Already: This TYPE has already been locked by NAME.
+      Unlock:
+        Unlocked: This TYPE is now unlocked.
+      Give:
+        Away: You gave the TYPE to NAME
+      FriendAdd:
+        Already: This friend is already in the list of friends.
+        Added: You just added NAME as friend for this TYPE.
+      FriendRem:
+        Removed: You just removed NAME as friend for this TYPE.
+        None: You don't have any friends added.
+      Admin:
+        Claimed: You just claimed this TYPE.
+        Reload: Reloading Chestlock config.
+        ReloadDoneSuccess: Reloaded the config successfully.
+        ReloadDoneFailed: Couldn't reload config.
+      Public: This TYPE is now public.
+      Private: This TYPE is now private.
+      Info:
+        Public: This TYPE is public.
+        Private: This TYPE is private.
+        Owner: The owner of this TYPE is NAME.
+        Nofriends: No friends added.
+        Friends: 'TYPE friends: FRIENDS.'
+        Youowner: You are the owner of this TYPE.

@@ -1,0 +1,57 @@
+{
+  "name": "ElderRuins",
+  "description": "Ruins from an ancient time, believed to have been built by the Elder Race.",
+  "createdAtMillis": 1402274737077,
+  "relationWishes": {
+    "2f620966-e3ab-48c1-a350-c4f2bda3b6db": "ALLY"
+  },
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": true,
+    "INFPOWER": true,
+    "FRIENDLYFIRE": true
+  },
+  "perms": {
+    "BUILD": [],
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "BUTTON": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "LEVER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ENEMY",
+      "NEUTRAL",
+      "TRUCE",
+      "ALLY",
+      "RECRUIT"
+    ]
+  }
+}

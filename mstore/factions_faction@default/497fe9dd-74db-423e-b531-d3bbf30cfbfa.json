@@ -1,0 +1,27 @@
+{
+  "name": "ThePatronus",
+  "description": "We are the protectors of a great power. It will not be unleashed under our watch.",
+  "createdAtMillis": 1401206353732,
+  "powerBoost": 21.0,
+  "relationWishes": {
+    "fb449773-6e43-475b-8d80-e5e62c67fc75": "ENEMY"
+  },
+  "flags": {
+    "PERMANENT": true
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER"
+    ],
+    "BUTTON": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "NEUTRAL",
+      "TRUCE",
+      "ENEMY"
+    ]
+  }
+}

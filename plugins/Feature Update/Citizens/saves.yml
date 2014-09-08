@@ -1,0 +1,294 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 10
+npc:
+  '4':
+    metadata:
+      flyable: true
+    name: Waffles
+    uuid: 339c95bd-08eb-42e5-b615-823af4a45c8a
+    traits:
+      waypoints:
+        linear: {}
+        provider: linear
+      location:
+        world: world
+        x: '234.0'
+        y: '67.0'
+        z: '11.0'
+        yaw: '0.0'
+        pitch: '0.0'
+      type: EnderDragon
+      controllable:
+        enabled: true
+      spawned: false
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: waypoints,spawned,type,location,owner,controllable
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: Waffles
+    uuid: 396ecf0d-d69b-4cbf-8805-b5e20798f83c
+    traits:
+      location:
+        world: world
+        x: '162.81294172925985'
+        y: '64.0'
+        z: '153.47731028972999'
+        yaw: '-349.4903564453125'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      type: Ozelot
+      spawned: false
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,age,location,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: rada
+    uuid: cb136297-0c0e-4d06-96ad-b29d7cfca09b
+    traits:
+      location:
+        world: world
+        x: '160.1004691854639'
+        y: '64.0'
+        z: '154.0199830015901'
+        yaw: '180.0'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      type: Wolf
+      controllable:
+        enabled: true
+      spawned: false
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,age,owner,location,controllable
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+      cached-skin-uuid-name: Mr_Admin_Guy
+    name: Mr_Admin_Guy
+    uuid: b5852f03-0774-494c-8c90-53341cefa07e
+    traits:
+      waypoints:
+        linear: {}
+        provider: linear
+      location:
+        world: world
+        x: '133.22894383326175'
+        y: '65.0'
+        z: '210.98750001192093'
+        yaw: '103.58564758300781'
+        pitch: '0.0'
+      controllable:
+        enabled: true
+      spawned: false
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: waypoints,spawned,type,location,owner,controllable
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: Wnakershim
+    uuid: dbc05ee3-987b-442f-908f-838329798a53
+    traits:
+      location:
+        world: world
+        x: '226.9878004516442'
+        y: '63.0'
+        z: '-95.27956881059836'
+        yaw: '-269.91815185546875'
+        pitch: '6.597738265991211'
+      spawned: false
+      type: EnderDragon
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,location,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: Waffles
+    uuid: b315e01b-bde0-45a7-84f4-bd1bd9c44c0f
+    traits:
+      location:
+        world: world
+        x: '314.7296167026539'
+        y: '101.08124626403782'
+        z: '58.250545185865775'
+        yaw: '65.7512435913086'
+        pitch: '17.085451126098633'
+      spawned: false
+      type: EnderDragon
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,owner,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: Jon
+    uuid: 9424c799-4051-4965-b32f-387a0a5da48b
+    traits:
+      location:
+        world: world
+        x: '182.90613659636878'
+        y: '63.0'
+        z: '191.99782055574474'
+        yaw: '-358.9129638671875'
+        pitch: '41.65116882324219'
+      spawned: false
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,location,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Jon
+    uuid: 511267ca-1f40-44f1-bc16-a8d9c2eee99d
+    traits:
+      location:
+        world: world
+        x: '186.69999998807907'
+        y: '63.0'
+        z: '208.11442777462784'
+        yaw: '-6251.87548828125'
+        pitch: '0.0'
+      spawned: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '178.0'
+                y: '62.0'
+                z: '208.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '186.0'
+                y: '62.0'
+                z: '208.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '186.0'
+                y: '62.0'
+                z: '200.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '178.0'
+                y: '62.0'
+                z: '200.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: waypoints,spawned,type,location,owner
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: waffles
+    uuid: fe3b2a26-213f-46c1-b341-13005035651f
+    traits:
+      location:
+        world: world
+        x: '258.7500221806914'
+        y: '95.40055730512424'
+        z: '1.5069094251320667'
+        yaw: '-0.0'
+        pitch: '10.088180541992188'
+      controllable:
+        enabled: true
+      spawned: false
+      type: EnderDragon
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,owner,location,controllable
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: Waffles
+    uuid: 5ff136f8-7270-474d-9f15-fb4d9d2e0313
+    traits:
+      location:
+        world: world
+        x: '235.77223112431585'
+        y: '96.79315835421365'
+        z: '-48.02423477567405'
+        yaw: '208.59173583984375'
+        pitch: '8.099963188171387'
+      controllable:
+        enabled: true
+      spawned: false
+      type: EnderDragon
+      owner:
+        owner: Mr_Admin_Guy
+        uuid: 7d059050-a571-45b3-9e4b-95bbfb47ccfd
+    traitnames: spawned,type,location,owner,controllable
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

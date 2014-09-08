@@ -1,0 +1,20 @@
+{
+  "item": {
+    "id": 387,
+    "name": "§f8th Meeting §f§oby §fCenedril Aeglos",
+    "lore": [
+      "COPYRIGHTED"
+    ],
+    "title": "8th Meeting",
+    "author": "Cenedril Aeglos",
+    "pages": [
+      "ROLL CALL:\nShaman Dro'Baka - Present\nGrandmaster Aeglos - Present\nHigh Lord Allorik - Present\nProfessor Jon - Present\nBilly Bob - Present\nCouncilor Bernie - Present",
+      "Motion 1:\nRace and Class Plugin command system. This will take place of the plugin's GUI system in favor of keeping Massive Books plugin in the server.\n\nMotion seconded.\n",
+      "Votes:\n2 Yay\n1 Nay\n2 Abstain\n\nMotion carried.",
+      "Motion 2:\nRace and Class Plugin BETA. This would inact a test period to test and balance the plugin.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nVote unanimous, motion carried.",
+      "Motion 3:\nCraftbook Plugin Survey. This allows the creation of a survey for members of the council to cast their votes on the individual features of the Craftbook Plugin, and will allow immediate implementation of passed features when survey is completed",
+      "by all members.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nVote unanimous, motion carried.",
+      "This concludes the 8th meeting of the Elder Council. Meeting adjurned."
+    ]
+  }
+}

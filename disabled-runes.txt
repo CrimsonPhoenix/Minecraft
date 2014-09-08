@@ -1,0 +1,38 @@
+#If you wish to disable a rune, list its proper name in this file.
+#This is the name printed when the rune is activated.
+#If you wish to use a whitelist instead, uncomment this line:
+#whitelist
+#list the name of a player to ban them from using magic (except existing teleporters).
+#here are some extra options you can add to the list:
+# enable travel ink - force teleporters and waypoints to be made of a specific material
+# ink X - dermine the block type (X) to use for travel ink-- you must add this if you add the above
+# enable teleport toll - force users of teleporters to sacrifice a specific block in the center
+# toll X - dermine the block type (X) to use for travel toll-- you must add this if you add the above
+# enable multiworld travel - allows teleportation between worlds in bukkit.
+#initiation - players cannot use runes until they activate a special rune containing bedrock
+# judgement - allows the creation of the altar of judgement, allowing players to modify disabled-runes ingame.
+# salvation - Saves a faith island to a file in the main world folder.
+# redemption - loads a faith island from a file in the main world folder.
+# signature assignments - Enables TP/Automation signature restrictions.
+# Define them like this: (3 spaces)
+#    name,north,east,south,west 
+#    SuperLlama,35,37,*,* 
+#    Zeerix,35,38,4,* 
+#    Ctri,*,122,4,* 
+#    *,*,*,*  (for the default assignment group)
+# These all stack, allowing multiple sig groups per person.
+
+# World Groups - Enables the restriction of TPs/FTPs/Zeerix Chest to a collection of worlds.
+# Define the group like this, based on world foler name.
+#    world, world_nether, world_the_end
+#    creative, creative_2 
+# With this enabled, worlds ungrouped will be freely accessible by other ungrouped worlds. 
+
+# mutligroup teleport inks - use this to define teleport/FTP/Zeerix chest inks that can escape world groups 
+#   57 (would allow diamond runes to travel freely 
+#   7 (would allow bedrock runes to travel freely 
+
+chrono trigger
+phantom torch
+spring
+Solar Flare

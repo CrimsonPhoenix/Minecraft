@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": 387,
+    "name": "§f9th Meeting §f§oby §fCenedril Aeglos",
+    "lore": [
+      "COPYRIGHTED"
+    ],
+    "title": "9th Meeting",
+    "author": "Cenedril Aeglos",
+    "pages": [
+      "ROLL CALL:\nShaman Dro'Baka - Present\nGrandmaster Aeglos - Present\nHigh Lord Allorik - Present\nProfessor Jon - Present\nBilly bob - Present\nCouncilor Bernie - Absent\n",
+      "Motion 1:\nAdmin controlled holes through bedrock, but they must be lore based, approved by admins, and preferably be within a player city.\n\nMotion seconded.",
+      "Votes:\n3 Yay\n1 Nay\n1 Abstain\n\nMotion carried.",
+      "Motion 2:\nPassword protected server. Emplements a lose password protection to reduce number of randoms, creating a semi-public server.\n\nMotion seconded.\n",
+      "Votes:\n3 Yay\n0 Nay\n2 Abstain\n\nMotion carried.",
+      "Motion 3:\nGym addition to the meeting room.\n\nMotion seconded.\n\nVotes:\n3 Yay\n1 Nay\n1 Abstain\n\nMotion carried.",
+      "Motion 4:\nIncrease spawn rate of apples from oak trees.\n\nMotion seconded.\n\nVotes:\n3 Yay\n0 Nay\n2 Abstain\n\nMotion carried.",
+      "Motion 5:\nWhen a new plugin is brought forth, a link will be provided to all council members.\n\nMotion seconded.\n\nVotes:\n3 Yay\n0 Nay\n2 Abstain",
+      "Motion 6:\nImplementing a NPC plugin: Citizens 2. Allows creation of citizens by players that are whitelisted. Players are whitelisted by recommendation. If that is proven untrue (recommended player goofs up and proves to be untrustworthy), they will be",
+      "blacklisted permenantly. Whitelisted players can only create default NPCs (no abilities) and then players must pay to admins(server/Agni/etc) a certain price to give the NPC an ability, such as blacksmith.",
+      "Motion seconded.\n\nVotes:\n5 Yay\n\nVotes unanimous, motion carried.",
+      "Motion 7:\nArmor weight system.\n\nMotion seconded.\n\nVotes:\n1 Yay\n3 Nay\n1 Abstain\n\nMotion carried.",
+      "Motion 8:\nNo new plugins until currently approved plugins have been implemented.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nVote unanimous, motion carried.",
+      "This concludes the 9th meeting of the Elder Council. Meeting adjurned."
+    ]
+  }
+}

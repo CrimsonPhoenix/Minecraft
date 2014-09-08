@@ -1,0 +1,34 @@
+{
+  "name": "Crossroads",
+  "description": "A small traveller's rest, allied with Oira Hrivenore and under the protection of Gaurhoth.",
+  "createdAtMillis": 1402537899621,
+  "relationWishes": {
+    "2f620966-e3ab-48c1-a350-c4f2bda3b6db": "ALLY"
+  },
+  "flags": {
+    "PERMANENT": true
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER"
+    ],
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE"
+    ],
+    "BUTTON": [
+      "LEADER"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "RECRUIT"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+permissions:
+  teleport: false
+  runes: true
+options:
+  compass-old-north: false
+  recall-weakness: false

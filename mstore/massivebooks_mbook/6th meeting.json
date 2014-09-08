@@ -1,0 +1,40 @@
+{
+  "item": {
+    "id": 387,
+    "name": "§f6th Meeting §f§oby §fCenedril Aeglos",
+    "lore": [
+      "COPYRIGHTED"
+    ],
+    "title": "6th Meeting",
+    "author": "Cenedril Aeglos",
+    "pages": [
+      "ROLL CALL:\nShaman Dro'Baka - Present\nGrandmaster Aeglos - Present\nHigh Lord Allorik - Present\nProfessor Jon - Present\nCouncilor Bernie - Absent\nGod King Barthiouse - Absent in Death\n\nDue to the death of King Barthoise, the council has been taken short by",
+      "one member. An emergency meeting has been called in the absence of the king and his lack of heirs to decide on the fate of Amestrius. Latter motions will proceed as usual.",
+      "Fate of Amestrius Ruling:\nAs King Barthiouse has died with no hiers, Professor Jon has taken over, fulfilling his duty as second in command. His motion is to place the leadership of Amestrius in the hands of the lords in form of a democracy.\n",
+      "An interruption has occured, the presence of Corthiouse of End. He states that Whitewood of Amestrius and the End Portal are now under control of him and his men. We are to decide if we should allow the End Knights to take leadership of Amestrius, or to",
+      "grant democracy to Amestrius. High Lord Allorik has proclaimed defiance to the End Knights, in opposition to their religious implications. Shaman Dro'Baka takes sides with Ravnhald in this matter. Professor Jon, and with him, Amestrius, proclaim support",
+      "for Corthiouse. Guarhoth remains neutral in respect of their history and tradition. After a warning against the power in which the End Knights seek, and a torn council decision against Corthoise and his Knights, he left.",
+      "The fate of Amestrius is thus:\n\nRavnhald - Opposed to Corthiouse, votes for democracy in Amestrius.\nDrazirahc - Opposed to Corthiouse, votes for democracy in Amestrius.\nGaurhoth - Opposed to Corthiouse politically but not militarily. If the End Knights",
+      "begin a war campaign against Amestrius, they will abstain to remain neutral.\nAmestrius - Supported Corthiouse, voted against democracy in Amestrius.",
+      "With the fate of Amestrius decided, the traditional council meeting will insue.",
+      "Motion 1:\nSpawn revisions as follows:\n-Remove farms.\n-Place a limiting timer on food despenser, but heavily stock it.\n-Meta Data shop for equivilant exchange of blocks for their alternative meta data.\n-Park/Garden which will contain the towers for 10 ",
+      "nations.\n\nMotion seconded.\n\nVotes: \n4 Yay\n1 Nay\n\nMotion carried and passed.",
+      "Motion 2:\nAbstentions must be verbal.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nMotion carried and passed.\n",
+      "Motion 3\nMeta Data Plugin\n\nAllows the cycling of block meta data through administrative controlled tools, which includes cycling through biome specific textures.\n\nMotion seconded.",
+      "Votes:\n5 Yay\n\nMotion carried and passed.\n\n",
+      "Motion 4\nKnights/Mercenaries plugin that allows the creations of soldiers. Security NPC plugin.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nMotion carried and passed.",
+      "Motion 5\nRunecraft. Which runes should be enabled that were concerning to admins:\n-Permanence, allows you to place a rune permanently onto a tool/item, after the tool is enchanted then engraved. Cost is 7 diamond blocks, redstone, and a dragon egg.",
+      "Tool can be stolen or break.\n-Zyreks Chest allows a chest to be teleported to and from you by clicking a stick.\n-Solar Flare, which is a AOE without a set radius but a set destroy block count.",
+      "Permanence seconded\n\nVotes:\n3 Yay\n2 Nay\n\nMotion carried and passed.\n\nZyreks Chest seconded\n\nVotes:\n3 Yay\n2 Abstain",
+      "Motion carried and passed.\n\nSolar Flare seconded\n\nVotes:\n1 Yay\n2 Nay\n2 Abstain\n\nMotion carried, but not passed.",
+      "-Chrono Trigger allows control of time.\n\nChrono Trigger being disabled.\n\nMotion seconded.\n\nVotes:\n5 Yay\n\nMotion carried and passed.\nChrono Trigger will now",
+      "be disabled.\n\nSpring Rune allows you to lunge forward and potentially fly with the use of a string.\n\nMotion to disable Spring.\n\nMotion seconded.\n\n",
+      "Votes:\n3 Yay\n1 Nay\n1 Abstain\n\nMotion carried and passed.\nSpring is disabled.\n\n-Faith allows you to displace a set amount of land upwards into the air.\nWhich can then be moved through the pegasus faith ",
+      "engine.\n\nMotion to disable Faith.\n\nMotion seconded.\n\nVotes:\n1 Yay\n2 Nay\n2 Abstain\n\nMotion carried but not passed. Faith remains",
+      "enabled.\n\nNo further runes currently need voting.\n\nRune Edit Motion:\nJon can remove a rune permanently due to balancing issues.\n\nMotion seconded.",
+      "Votes:\n5 Yay\n\nMotion carried and passed.",
+      "Motion 6\nWorld size limit to insure the server harddrive will keep the memory usage managable.\n\nIssue noted and allowed to pass.",
+      "This concludes the 6th meeting of the Elder Council. Meeting adjurned."
+    ]
+  }
+}

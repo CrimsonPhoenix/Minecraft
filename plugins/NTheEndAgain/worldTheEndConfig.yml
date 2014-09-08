@@ -1,0 +1,244 @@
+#####################################################################
+##               Config file for NTheEndAgain plugin               ##
+## If you don't understand something, please ask on dev.bukkit.org ##
+##                                                          Ribesg ##
+#####################################################################
+
+# This config file is about the world "world_the_end"
+
+###########################
+## GENERAL CONFIGURATION ##
+###########################
+
+# Do we hide the 'Player Moved Too Quickly!' spam? Default: 0
+# /!\ This feature is not compatible with any other plugin using Bukkit's Logger filters
+#
+#       0: Disabled.
+#       1: Enabled.
+#
+# Note: to completely disable the filter and allow compatibility with other plugins using it,
+#       please be sure to set it to 0 in EVERY End World config file.
+#
+filterMovedTooQuicklySpam: 1
+
+###############################
+## ENDERDRAGON CONFIGURATION ##
+###############################
+
+# The health value EnderDragons will spawn with. Default: 200
+edHealth: 250
+
+# Scale damages done by EnderDragon. Default: 1.0
+edDamageMultiplier: 1.0
+
+# Do we 'simulate' the EnderDragon-Pushes-Player behaviour? Default: 1
+# This feature apply a kind-of random velocity to a Player after it has been damaged by an EnderDragon
+#
+#       0: Disabled.
+#       1: Enabled.
+#
+edPushesPlayers: 1
+
+# The way the DragonEgg will spawn. Default: 0
+#
+#       0: Disabled. The egg will spawn normally if portalHandling is set to 0 or 1.
+#       1: Enabled. The egg will be semi-randomly given to one of the best fighters.
+#
+edEggHandling: 1
+
+# The way the reward XP will be given to player. Default: 0
+#
+#       0: Disabled. XP orbs will spawn normally.
+#       1: Enabled. XP will be splitted between fighters, more XP for better fighters.
+#
+edExpHandling: 1
+
+# The value of the XP drop. Default: 12000
+edExpReward: 12000
+
+# The way portal spawn will be handled. Default: 0
+#
+#       0: Disabled. Portal will spawn normally.
+#       1: Egg. Portal will be removed but not the DragonEgg
+#       2: Enabled. Portal will not spawn. No more cut obsidian towers. /!\ No Egg if dragonEggHandling=0.
+#
+edPortalSpawn: 2
+
+#################################
+## ENDERCRYSTALS CONFIGURATION ##
+#################################
+
+# Change EnderCrystals behaviour relative to the EnderDragon. Default: 1.0
+# One important thing to understand is that Health is integer (for now).
+#
+#       < 1.0: Acts as a "chance that the Dragon will regain 1 HP" each tick
+#       = 1.0: Vanilla. EnderDragon gain 1 HP per tick.
+#       > 1.0: EnderDragon gain x HP per tick, so please set it to an integer value like 2 or more.
+#
+ecHealthRegainRate: 1.0
+
+################################
+## REGENERATION CONFIGURATION ##
+################################
+
+# Select the regeneration type. Default: 0
+#
+#       0: Disabled. No hot regeneration.
+#       1: Before EnderDragon respawn (only if no EnderDragon alive)
+#       2: Periodic - From load time. Regen every <regenTimer> seconds after boot/load.
+#       3: Periodic - Persistent. Regen every <regenTimer> seconds, persistent through reboots/reloads
+#
+regenType: 0
+
+# Select your definition of "regen". Default: 0
+#
+#       0: Hard Regen. Regen every chunks at once. Laggy. Not recommended.
+#       1: Soft Regen. Regen chunks when they are loaded. A lot less laggy.
+#       2: Crystals only. Does not modify any block, only respawn the EnderCrystals.
+#
+# Note: Regeneration does not regenerate Protected chunks.
+#
+regenMethod: 2
+
+# The time between each regen. Ignored if regenType is not Periodic (2 or 3). Default: 86400
+#
+# Here are some example values:
+#   Value   --   Description
+#       1800: 30 minutes
+#       3600: 1 hour
+#       7200: 2 hours
+#      10800: 3 hours
+#      14400: 4 hours
+#      21600: 6 hours
+#      28800: 8 hours
+#      43200: 12 hours
+#      86400: 24 hours - 1 day
+#     172800: 48 hours - 2 days
+#     604800: 7 days
+#
+# You can use *any* strictly positive value you want, just be sure to convert it to seconds.
+#
+# Note: You should NOT use low value. Some hours of delay are recommended.
+#
+regenTimer: 30
+
+# What do we do to players in the End when we want to regen the world? Default: 0
+#
+#       0: Kick them. This way they can rejoin immediatly in the End at the same place.
+#          WARNING: Mass rejoin after mass kick in the End could cause lag if regenMethod=1
+#
+#       1: Teleport them to the spawn point of the Main (= first) world.
+#
+regenAction: 0
+
+# Activate hard regeneration on server stop. This will only slow down server stop.
+# This is nice to clean the End occasionnaly when using Soft or Crystal regen.
+#
+#       0: Disabled.
+#       1: Enabled.
+#
+hardRegenOnStop: 0
+
+# Select the number of chunks to be regen every slowSoftRegenTimer after a Soft Regeneration has started.
+# Default value: 5
+slowSoftRegenChunks: 5
+
+# Select the at which rate slowSoftRegenChunks chunks will be regenerated after a
+# Soft Regeneration has started. Default value: 5
+slowSoftRegenTimer: 5
+
+###########################
+## RESPAWN CONFIGURATION ##
+###########################
+
+# This is the amount of EnderDragons you want to be spawned. Default: 1
+respawnNumber: 1
+
+# Select when you want to respawn Dragons automagically. Default: 0
+#
+#       0: Disabled. No automatic respawn.
+#       1: X seconds after each Dragon's death. Not really good with regenType=1.
+#       2: X seconds after the last Dragon alive's death.
+#       3: On server start.
+#       4: Periodic - From load time. Respawn every X seconds after boot/load.
+#       5: Periodic - Persistent. Respawn every X seconds, persistent through reboots/reloads
+#       6: NEW - Respawn every X seconds after the last Dragon alive's death, persistent through reboots/reloads
+#
+respawnType: 0
+
+# The X value in the previous comments. Defaults: 7200 < 14400
+# A value will be randomly chosen for each iteration. The chosen value vill be between min and max
+#
+# Here are some example values (again!):
+#   Value   --   Description
+#       1800: 30 minutes
+#       3600: 1 hour
+#       7200: 2 hours
+#      10800: 3 hours
+#      14400: 4 hours
+#      21600: 6 hours
+#      28800: 8 hours
+#      43200: 12 hours
+#      86400: 24 hours - 1 day
+#     172800: 48 hours - 2 days
+#     604800: 7 days
+#
+# You can use *any* strictly positive value you want, just be sure to convert it to seconds.
+#
+# Note: You CAN use low value if regenType is not set to 1.
+#       But maybe you should consider using respawnType=1 or respawnType=2 instead of a low periodic.
+#
+respawnTimerMin: 432000
+respawnTimerMax: 432001
+
+################
+## DROP TABLE ##
+################
+
+# The way the Drops will spawn. Default: 1
+#
+#       0: Stock. Drops will just fall from the EnderDragon death Location
+#       1: Distribution. Drops will be distributed exactly like the DragonEgg
+#
+dropTableHandling: 1
+
+# Drop table for the EnderDragons. Complete informations: http://ribe.sg/is-config
+# Example drop table:
+#
+# dropTable:
+#   drop1:
+#     probability: 0.25
+#     itemStack:
+#       id: DIAMOND_SWORD
+#       data: 0
+#       amount: 1
+#       meta:
+#         name: The Great Example Sword
+#         lore:
+#         - Such sword
+#         - Very diamond
+#         - Wow
+#
+dropTable: {}
+
+######################
+## CHUNK PROTECTION ##
+######################
+
+# Default state of newly first-generated chunks. Default: false
+#
+#       true:  Protected from regeneration
+#       false: Unprotected from regeneration
+#
+defaultProtected: true
+
+#################################
+## DATA - PLEASE DO NOT TOUCH! ##
+#################################
+
+# Used to allow Regen task timer persistence. /!\ PLEASE DO NOT TOUCH THIS !
+nextRegenTaskTime: 610357454192135
+
+# Used to allow Respawn task timer persistence. /!\ PLEASE DO NOT TOUCH THIS !
+nextRespawnTaskTime: 0
+

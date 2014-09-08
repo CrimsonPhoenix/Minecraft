@@ -1,0 +1,62 @@
+{
+  "name": "SafeZone",
+  "description": "You are safe here. Feel free to visit the library for server information.",
+  "createdAtMillis": 1393213788558,
+  "open": false,
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": true,
+    "INFPOWER": true,
+    "POWERLOSS": false,
+    "PVP": false,
+    "FRIENDLYFIRE": false,
+    "MONSTERS": false,
+    "EXPLOSIONS": false,
+    "OFFLINE_EXPLOSIONS": false,
+    "FIRESPREAD": false,
+    "ENDERGRIEF": false
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER"
+    ],
+    "DOOR": [
+      "MEMBER",
+      "ENEMY",
+      "NEUTRAL",
+      "LEADER",
+      "TRUCE",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "BUTTON": [],
+    "LEVER": [
+      "MEMBER",
+      "ENEMY",
+      "NEUTRAL",
+      "LEADER",
+      "TRUCE",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "CONTAINER": [
+      "MEMBER",
+      "ENEMY",
+      "NEUTRAL",
+      "LEADER",
+      "TRUCE",
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
+    ],
+    "TERRITORY": [
+      "MEMBER",
+      "LEADER",
+      "OFFICER"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Drazirahc",
+  "description": "A tribal people whose piety bonds them together",
+  "createdAtMillis": 1400309589511,
+  "home": {
+    "w": "world",
+    "lx": 90.76454861308909,
+    "ly": 83.0,
+    "lz": 3591.73797356058,
+    "p": 20.999998,
+    "y": -8.849548
+  },
+  "powerBoost": 400.0,
+  "open": false,
+  "invitedPlayerIds": [
+    "199cbe07-221b-48eb-ae85-f5beea6dfbe9",
+    "25a8fab6-f5d6-4104-87a9-f85034ac7900",
+    "f09ac1e4-597f-4ac0-bd11-eadbb89f9c65"
+  ],
+  "relationWishes": {
+    "53807349-7026-4a95-939e-5d57aa4a5625": "ALLY",
+    "2f620966-e3ab-48c1-a350-c4f2bda3b6db": "ALLY",
+    "09b51f86-8139-4e17-8a12-f6a442b74e3c": "ALLY"
+  },
+  "flags": {
+    "PERMANENT": true,
+    "FRIENDLYFIRE": true,
+    "FIRESPREAD": false
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "RECRUIT"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY"
+    ],
+    "SETHOME": [
+      "LEADER"
+    ]
+  }
+}

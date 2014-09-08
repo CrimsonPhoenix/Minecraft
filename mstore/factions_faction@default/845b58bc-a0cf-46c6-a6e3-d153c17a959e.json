@@ -1,0 +1,59 @@
+{
+  "name": "Admin",
+  "description": "This faction controls the spawn chunk.",
+  "createdAtMillis": 1398574396145,
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": true,
+    "INFPOWER": true,
+    "FRIENDLYFIRE": true,
+    "MONSTERS": false,
+    "EXPLOSIONS": false,
+    "FIRESPREAD": false
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER"
+    ],
+    "DOOR": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "ENEMY",
+      "NEUTRAL",
+      "TRUCE"
+    ],
+    "BUTTON": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "LEVER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "RECRUIT",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ]
+  }
+}

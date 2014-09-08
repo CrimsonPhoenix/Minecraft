@@ -1,0 +1,84 @@
+channel:
+  PasswordChannel: {}
+  PrivateChannel: {}
+  PublicChannel: {}
+  GlobalChannel:
+    Tutorial:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&5'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Global:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&5'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+  RaceChannel:
+    Orc:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Elv:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+  WorldChannel:
+    world:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    world_the_end:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    world_nether:
+      prefix: "\xa7f["
+      suffix: "\xa7f]"
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{race}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true

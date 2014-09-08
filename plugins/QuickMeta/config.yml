@@ -1,0 +1,12 @@
+disabledWorlds:
+- world_nether
+- world_the_end
+disabledBlocks:
+- LAVA
+- DOUBLE_PLANT
+allowPaintings: true
+biomeTool: NETHER_STAR
+metaTool: NETHER_STAR
+entityTool: NETHER_STAR
+supportWorldGuard: false
+supportPlotMe: false

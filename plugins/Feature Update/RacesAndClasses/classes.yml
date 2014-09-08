@@ -1,0 +1,80 @@
+warrior:
+  config:
+    classtag: '[Warrior]'
+    health: '+5'
+  traits:
+    SwordDamageIncreaseTrait:
+      operation: +
+      value: 1
+    AxeDamageIncreaseTrait:
+      operation: +
+      value: 1
+archer:
+  config:
+    classtag: '[Archer]'
+    health: '+1'
+  traits:
+    PoisonArrowTrait:
+      duration: 10
+      totalDamage: 10
+      cooldown: 30
+    FireArrowTrait:
+      duration: 10
+      totalDamage: 10
+      cooldown: 30
+    TeleportArrowTrait:
+      cooldown: 60
+magician:
+  config:
+    classtag: '[Magician]'
+    health: '-1'
+    manabonus: 20
+  traits:
+    ManaRegenerationTrait:
+      time: 10
+      value: 2
+    FireballTrait:
+      cost: 6
+      cooldown: 10
+    ItemForManaConsumeTrait:
+      cooldown: 10
+      item: WHEAT
+      cost: 1
+      value: 10
+    WallTrait:
+      cooldown: 10
+      cost: 5
+      duration: 5
+    ExplosionTrait:
+      cooldown: 10
+      cost: 10
+      range: 5
+      damage: 4
+    SlowFallTrait:
+      cooldown: 10
+      cost: 5
+      duration: 10
+    ColdFeetTrait:
+      cost: 5
+      duration: 10
+shaman:
+  config:
+    classtag: '[Shaman]'
+    health: '+1'
+    manabonus: 20
+  traits:
+    HealTotemTrait:
+      duration: 10
+      value: 3
+      every: 2
+    PotionTotemTrait:
+      effect: 6
+      duration: 10
+    ItemForManaConsumeTrait:
+      cooldown: 10
+      item: POTION
+      cost: 1
+      value: 10
+    ManaRegenerationTrait:
+      value: 1
+      time: 5

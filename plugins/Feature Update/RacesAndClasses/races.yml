@@ -1,0 +1,26 @@
+Orc:
+  config:
+    racetag: '[Orc]'
+    raceMaxHealth: 30
+    armor: iron,diamond,chain
+  traits:
+    DamageReduceTrait:
+      operation: '*'
+      value: 0.5
+    BerserkerRageTrait:
+      operation: +
+      value: 1
+      cooldown: 30
+Elv:
+  config:
+    racetag: '[Elv]'
+    raceMaxHealth: 20
+    armor: leather,gold,chain
+  traits:
+    FallResistanceTrait:
+      operation: '-'
+      value: 2
+    SprintTrait:
+      duration: 10
+      value: 3
+      cooldown: 60

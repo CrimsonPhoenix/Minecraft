@@ -1,0 +1,19 @@
+groups:
+  default:
+    default: true
+    options:
+      permissions:
+      - modifyworld.*
+      - metacycler.use
+      - multiverse.portal.access.ToSurvival
+      - multiverse.portal.access.ToCreative
+      - multiverse.portal.access.End
+schema-version: 1
+users:
+  7d059050-a571-45b3-9e4b-95bbfb47ccfd:
+    group:
+    options:
+      name: Mr_Admin_Guy
+  c39150dd-cf40-4057-ae12-7b625d4128ea:
+    options:
+      name: Barthiouse

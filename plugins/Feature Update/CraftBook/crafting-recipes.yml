@@ -1,0 +1,197 @@
+# CraftBook Custom Recipes. CraftBook Version: 3.9-SNAPSHOT:3873-edf1456,master
+# For more information on setting up custom recipes, see the wiki:
+# http://wiki.sk89q.com/wiki/CraftBook/Custom_crafting
+
+
+crafting-recipes:
+    ChainShirt:
+        type: Shaped
+        ingredients:
+            'IRON_FENCE ': a
+        shape:
+        - a a
+        - aaa
+        - aaa
+        results:
+            'CHAINMAIL_CHESTPLATE ': 1
+    ChainLeggings:
+        type: Shaped
+        ingredients:
+            'IRON_FENCE ': a
+            'IRON_INGOT ': b
+        shape:
+        - aba
+        - a a
+        - a a
+        results:
+            'CHAINMAIL_LEGGINGS ': 1
+    ChainBoots:
+        type: Shaped
+        ingredients:
+            'IRON_FENCE ': a
+        shape:
+        - '   '
+        - a a
+        - a a
+        results:
+            'CHAINMAIL_BOOTS ': 1
+    ChainHelmet:
+        type: Shaped
+        ingredients:
+            'IRON_FENCE ': a
+        shape:
+        - aaa
+        - a a
+        results:
+            'CHAINMAIL_HELMET ': 1
+    HorseArmorDiamondR:
+        type: Shaped
+        ingredients:
+            'DIAMOND ': a
+            'WOOL:11 ': b
+        shape:
+        - '  a'
+        - aba
+        - aaa
+        results:
+            'DIAMOND_BARDING ': 1
+    HorseArmorDiamondL:
+        type: Shaped
+        ingredients:
+            'DIAMOND ': a
+            'WOOL:11 ': b
+        shape:
+        - 'a  '
+        - aba
+        - aaa
+        results:
+            'DIAMOND_BARDING ': 1
+    HorseArmorGoldL:
+        type: Shaped
+        ingredients:
+            'GOLD_INGOT ': a
+            'WOOL:14 ': b
+        shape:
+        - 'a  '
+        - aba
+        - aaa
+        results:
+            'GOLD_BARDING ': 1
+    HorseArmorGoldR:
+        type: Shaped
+        ingredients:
+            'GOLD_INGOT ': a
+            'WOOL:14 ': b
+        shape:
+        - '  a'
+        - aba
+        - aaa
+        results:
+            'GOLD_BARDING ': 1
+    HorseArmorIronR:
+        type: Shaped
+        ingredients:
+            'IRON_INGOT ': a
+            'WOOL:15 ': b
+        shape:
+        - '  a'
+        - aba
+        - aaa
+        results:
+            'IRON_BARDING ': 1
+    HorseArmorIronL:
+        type: Shaped
+        ingredients:
+            'IRON_INGOT ': a
+            'WOOL:15 ': b
+        shape:
+        - 'a  '
+        - aba
+        - aaa
+        results:
+            'IRON_BARDING ': 1
+    Saddle:
+        type: Shaped
+        ingredients:
+            'LEATHER ': a
+            'IRON_INGOT ': b
+        shape:
+        - aaa
+        - aba
+        - b b
+        results:
+            'SADDLE ': 1
+    MossyStone:
+        type: Shaped
+        ingredients:
+            'COBBLESTONE ': a
+            'VINE ': b
+        shape:
+        - aba
+        - bab
+        - aba
+        results:
+            'MOSSY_COBBLESTONE ': 5
+    MossyBrick:
+        type: Shaped
+        ingredients:
+            'SMOOTH_BRICK ': a
+            'VINE ': b
+        shape:
+        - aba
+        - bab
+        - aba
+        results:
+            'SMOOTH_BRICK:1 ': 5
+    Gunpowder:
+        type: Shapeless
+        ingredients:
+            'REDSTONE_BLOCK ': 1
+            'COAL_BLOCK ': 1
+        results:
+            'SULPHUR ': 4
+    Leather:
+        type: Furnace
+        ingredients:
+            'ROTTEN_FLESH ': 8
+        results:
+            'LEATHER ': 1
+    CrackedBrick:
+        type: Furnace
+        ingredients:
+            'SMOOTH_BRICK ': 1
+        results:
+            'SMOOTH_BRICK:2 ': 1
+    Cobweb:
+        type: Shaped
+        ingredients:
+            'STRING ': a
+        shape:
+        - aaa
+        - aaa
+        - aaa
+        results:
+            'WEB ': 2
+    Ice:
+        type: Shaped
+        ingredients:
+            'SNOW_BALL ': a
+            'WATER_BUCKET ': b
+        shape:
+        - aaa
+        - aba
+        - aaa
+        results:
+            'ICE ': 1
+    ExpBottle:
+        type: Shaped
+        ingredients:
+            'GOLD_INGOT ': a
+            'GLASS ': b
+            'EMERALD ': c
+        shape:
+        - aba
+        - bcb
+        - bbb
+        results:
+            'EXP_BOTTLE ': 1

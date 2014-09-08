@@ -1,0 +1,188 @@
+#####################################################################################
+## List of NTheEndAgain messages. You're free to change text/colors/language here. ##
+## Supports both '§' and '&' characters for colors.                                ##
+##                                                                          Ribesg ##
+#####################################################################################
+
+# Default value    : &cYou do not have the permission to use that command
+# Default useHeader: true
+# Awaited arguments: none
+noPermissionForCommand:
+  value: "&cYou do not have the permission to use that command"
+  useHeader: true
+
+# Default value    : &cThis command is only available in game
+# Default useHeader: true
+# Awaited arguments: none
+cmdOnlyAvailableForPlayers:
+  value: "&cThis command is only available in game"
+  useHeader: true
+
+# Default value    : &cNon-player user should provide a world name
+# Default useHeader: true
+# Awaited arguments: none
+missingWorldArg:
+  value: "&cNon-player user should provide a world name"
+  useHeader: true
+
+# Default value    : &cUnknown world '%world%'
+# Default useHeader: true
+# Awaited arguments: %world%
+unknownWorld:
+  value: "&cUnknown world '%world%'"
+  useHeader: true
+
+# Default value    : &aMessages reloaded!
+# Default useHeader: true
+# Awaited arguments: none
+cmdReloadMessages:
+  value: "&aMessages reloaded!"
+  useHeader: true
+
+# Default value    : &An error occured while loading %file%!
+# Default useHeader: true
+# Awaited arguments: %file%
+cmdReloadError:
+  value: "&An error occured while loading %file%!"
+  useHeader: true
+
+# Default value    : &cUnknown sub-command: %arg%
+# Default useHeader: true
+# Awaited arguments: %arg%
+theEndAgain_unkownSubCmd:
+  value: "&cUnknown sub-command: %arg%"
+  useHeader: true
+
+# Default value    : &aRegeneration of world %world% in progress
+# Default useHeader: true
+# Awaited arguments: %world%
+theEndAgain_regenerating:
+  value: "&aRegeneration of world %world% in progress"
+  useHeader: true
+
+# Default value    : &aAn EnderDragon has been respawned in world %world%
+# Default useHeader: true
+# Awaited arguments: %world%
+theEndAgain_respawned1:
+  value: "&aAn EnderDragon has been respawned in world %world%"
+  useHeader: true
+
+# Default value    : &a%nb% EnderDragons have been respawned in world %world%
+# Default useHeader: true
+# Awaited arguments: %nb% ; %world%
+theEndAgain_respawnedX:
+  value: "&a%nb% EnderDragons have been respawned in world %world%"
+  useHeader: true
+
+# Default value    : &aThere is no EnderDragon alive in world %world%
+# Default useHeader: true
+# Awaited arguments: %world%
+theEndAgain_nbAlive0:
+  value: "&aThere is no EnderDragon alive in world %world%"
+  useHeader: true
+
+# Default value    : &aThere is 1 EnderDragon alive in world %world%
+# Default useHeader: true
+# Awaited arguments: %world%
+theEndAgain_nbAlive1:
+  value: "&aThere is 1 EnderDragon alive in world %world%"
+  useHeader: true
+
+# Default value    : &aThere are %nb% EnderDragons alive in world %world%
+# Default useHeader: true
+# Awaited arguments: %nb% ; %world%
+theEndAgain_nbAliveX:
+  value: "&aThere are %nb% EnderDragons alive in world %world%"
+  useHeader: true
+
+# Default value    : &cYou're not in an End world, please provide an End world name.
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_notInAnEndWorld:
+  value: "&cYou're not in an End world, please provide an End world name."
+  useHeader: true
+
+# Default value    : &aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_protectedChunkInfo:
+  value: "&aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais protected"
+  useHeader: true
+
+# Default value    : &cChunk (&6%x%&c,&6%z%&c) in world &6%world% &cis already protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_protectedChunkProtect:
+  value: "&cChunk (&6%x%&c,&6%z%&c) in world &6%world% &cis already protected"
+  useHeader: true
+
+# Default value    : &aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais no longer protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_protectedChunkUnprotect:
+  value: "&aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais no longer protected"
+  useHeader: true
+
+# Default value    : &aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais not protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_unprotectedChunkInfo:
+  value: "&aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais not protected"
+  useHeader: true
+
+# Default value    : &aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais now protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_unprotectedChunkProtect:
+  value: "&aChunk (&6%x%&a,&6%z%&a) in world &6%world% &ais now protected"
+  useHeader: true
+
+# Default value    : &cChunk (&6%x%&c,&6%z%&c) in world &6%world% &cis already not protected
+# Default useHeader: true
+# Awaited arguments: %x% ; %z% ; %world%
+theEndAgain_unprotectedChunkUnprotect:
+  value: "&cChunk (&6%x%&c,&6%z%&c) in world &6%world% &cis already not protected"
+  useHeader: true
+
+# Default value    : &aEnd world regenerating
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_worldRegenerating:
+  value: "&aEnd world regenerating"
+  useHeader: true
+
+# Default value    : &aYou received %nb% XP points
+# Default useHeader: true
+# Awaited arguments: %nb%
+theEndAgain_receivedXP:
+  value: "&aYou received %nb% XP points"
+  useHeader: true
+
+# Default value    : &aYou received a Dragon Egg !
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_receivedDragonEgg:
+  value: "&aYou received a Dragon Egg !"
+  useHeader: true
+
+# Default value    : &aYour inventory is full, dropped a DragonEgg !
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_droppedDragonEgg:
+  value: "&aYour inventory is full, dropped a DragonEgg !"
+  useHeader: true
+
+# Default value    : &aYou received a Drop !
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_receivedDrop:
+  value: "&aYou received a Drop !"
+  useHeader: true
+
+# Default value    : &aYour inventory is full, dropped something !
+# Default useHeader: true
+# Awaited arguments: none
+theEndAgain_droppedDrop:
+  value: "&aYour inventory is full, dropped something !"
+  useHeader: true
+

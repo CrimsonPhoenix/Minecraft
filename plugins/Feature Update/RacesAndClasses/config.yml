@@ -1,0 +1,395 @@
+#ConfigTotal for RacesAndClasses
+#TemplateVersion 1.5
+
+
+######
+#CHAT#
+######
+
+# Tells if the Whispersystem is enabled. 
+# boolean: true or false 
+# default: true 
+chat_whisper_enable: true
+
+# Shows if Races should talk with encrypted messages. 
+# boolean: true or false 
+# default: true 
+# NOTICE: Not implemented yet!
+chat_race_encryptForOthers: false
+
+# Tells if the Channels System is enabled. 
+# boolean: true or false 
+# default: true 
+chat_channel_enable: true
+
+# Disables the channel join / leave messages. 
+# boolean: true or false 
+# default: false 
+chat_disable_channel_join_leave_messages: false
+
+
+########
+#HEALTH#
+########
+
+# The default Health a player has when he has no Race. 
+# This can be a double (number with comma)
+# default: 20 
+health_defaultHealth: 20
+
+# Tells to use a Chat message as health Bar. 
+# boolean: true or false 
+# default: true 
+health_bar_inChat_enable: true
+
+# Tells the plugin to NOT use health modifications. 
+# boolean: true or false 
+# default: false 
+disable_health_modifications: false
+
+
+#######
+#DEBUG#
+#######
+
+# Tells the Plugin to enable Debug outputs. 
+# If activating, beware of console spam. 
+# boolean: true or false 
+# default: true 
+debug_outputs_enable: true
+
+# Tells the Plugin to upload errors that happened to tobiyas's Error Server. 
+# This server is located at: tobiyas.tk . 
+# boolean: true or false 
+# default: false 
+debug_outputs_errorUpload: false
+
+# Tells the Plugin to log all stuff to the console. 
+# boolean: true or false 
+# default: true 
+debug_outputs_writethrough: true
+
+
+###########
+#TUTORIALS#
+###########
+
+# Tells the Plugin if Tutorials should be used. 
+# boolean: true or false 
+# default: true 
+tutorials_enable: true
+
+
+#########
+#METRICS#
+#########
+
+# Tells the Plugin if The Server should participate on Metrics. 
+# To get more infos on Metrics, see 'www.mcstats.org'
+# boolean: true or false 
+# default: true 
+metrics_enable: true
+
+
+#########
+#UPDATER#
+#########
+
+# Tells the Plugin to auto-update when there is a new Release Version of the Plugin. 
+# The Updater used is from h31ix.
+# link: 'https://github.com/h31ix/Updater/blob/master/src/net/h31ix/updater/Updater.java'
+# boolean: true or false 
+# default: false 
+updater_enableAutoUpdates: false
+
+
+##########
+#LANGUAGE#
+##########
+
+# Tells the Plugin which language file to use. 
+# The language files are located at: 'plugins/RacesAndClasses/language/'.
+# String representing the language: en, de, es, it ...
+# default: en 
+# NOTICE: Not implemented yet.
+language_used: en
+
+
+############
+#MULTIWORLD#
+############
+
+# All worlds to disable the Traits on. 
+# String list: example: [world1337,nonexistingWorld,...]
+# default: [] 
+worlds_disableOn: []
+
+# Tells the Plugin to reset the HP on change to disabled world. 
+# boolean: true or false
+# default: true 
+keep_max_hp_on_disabled_worlds: true
+
+
+#############
+#Race Spawns#
+#############
+
+# This tells if the Race-Spawning Feature is enabled or not.. 
+# If it is enabled, players can get with '/racespawn' to their Race Spawns.
+# boolean: true or false 
+# default: true 
+race_spawns_enabled: true
+
+# When a player dies, he will spawn on his Race Spawn.
+# If this is set to false, the player NOT spawn to his race spawn.
+# boolean: true or false 
+# default: false 
+race_spawn_when_dead: false
+
+# Tells the cooldown for using /racespawn. 
+# The cooldown is in seconds. 300 -> 6 Minutes. 
+# integer: 0 - high number
+# default: 300 
+race_spawn_cooldown: 300
+
+
+#########
+#GENERAL#
+#########
+
+# Copys all Traits to the Trait folder on Plugin loading. 
+# If you modify Traits used by the Plugin by code, turn this off.
+# boolean: true or false
+# default: true 
+general_copyDefaultTraitsOnStartup: true
+
+# This tells the plugin to look at conversion at startup.. 
+# If turned to false, no conversion of playerdata will be done on startup!
+# boolean: true or false
+# default: false 
+general_convert_database_on_startup: false
+
+# This tells the Plugin to NOT check the Armor if turned off. 
+# If turned to true, the armor Checking of Races / Classes is Disabled.
+# boolean: true or false
+# default: false 
+general_armor_disableArmorChecking: false
+
+# This tells the plugin to NOT register the following commands. 
+# This is a list of commands that are disabled for the plugin.
+# String list: [command1,command2,...]
+# default: [] 
+general_disable_commands: []
+
+# This tells the plugin to NOT register the following aliases. 
+# This is a list of aliases that are disabled for the plugin.
+# String list: [alias1,alias2,...]
+# default: [] 
+general_disable_aliases: []
+
+# This is the cooldown between 2 messages when switching to the bow. 
+# number:  10  20   90   9001 ....# default: 10 
+general_cooldown_on_bow_message: 10
+
+# This is the cooldown between 2 messages when switching to the wand. 
+# number:  10  20   90   9001 ....# default: 10 
+general_cooldown_on_wand_message: 10
+
+
+#####
+#GUI#
+#####
+
+# Enables to also use left clicks in Inventory GUIS.
+# boolean: true or false
+# default: false 
+gui_alsoUseLeftclickInGuis: false
+
+# Setting this to true will disable all Outputs to scoreboards from the plugin.
+# boolean: true or false
+# default: false 
+gui_scoreboard_disableAllOutputs: false
+
+# Setting this to true will disable all Outputs of bars to the chat of the players.
+# boolean: true or false
+# default: false 
+gui_disableAllChatBars: false
+
+
+#######
+#MAGIC#
+#######
+
+# Tells the plugin which Item to use as wand (magic spell cast item). 
+# int: itemID of the Item OR
+# String: The canonical Name of the Item. See: 'https://github.com/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/Material.java' 
+# default: STICK 
+magic_wandId: STICK
+
+
+##########
+#LEVELING#
+##########
+
+# This is the Generator Polynome of the Level calculation. 
+# String: a string representing a polynome 
+# {level} will be replaced by the level of calculation.
+# If mcmmo is used as Level System, the Calculation will use McMMO skills.
+# The Skill name has to be written in {} eg. {digging}.
+# A valid calculator would be: '{digging} + {excavation} \ 20'
+# default: '{level} * {level} * {level} * 1000' 
+# By default, the the next level needs (level^3) * 1000 exp.
+level_mapExpPerLevelCalculationString: '{level} * {level} * {level} * 1000'
+
+# This tells the Plugin which level system to use. 
+# It can use one of the following:.
+# - RaC: Races and Classes leveling System (currently not usable).
+# - MC: Minecraft Levels.
+# - SkillAPI: Leveling System from SkillAPI.
+# - mcMMO: Leveling System from McMMO. also check for the calculation String above.
+# String: RaC or MC or SkillAPI or MCMMO
+# default: true 
+level_useLevelSystem: RaC
+
+
+#######
+#RACES#
+#######
+
+# Tells the plugin to use the Race System. 
+# boolean: true or false 
+# default: true 
+races_enable: true
+
+# Tells the plugin to remember everyone not having a Race to get one. 
+# boolean: true or false 
+# default: true 
+races_remindDefaultRace_enable: true
+
+# This is the interval the plugin remembers the user to get a race. 
+# The Value is in Minutes 
+# integer: value without comma 
+# default: 10 
+races_remindDefaultRace_interval: true
+
+# Tells the plugin to replace the Name of the Player with a prefix of the race in the 'TAB' player list. 
+# boolean: true or false 
+# default: true 
+races_display_adaptListName: true
+
+# Tells the Plugin to use it's own Drop list for Mobs. 
+# This list is located at:  'plugins/RacesAndClasses/TraitConfig/DropRates.yml'
+# boolean: true or false 
+# default: true 
+races_drops_enable: true
+
+# Tells the plugin to check for Permission for Each Race. 
+# The Permission is: 'RaC.races.RACENAME' 
+# boolean: true or false 
+# default: false 
+races_permissions_usePermissionsForEachRace: false
+
+# Tells the plugin to give the '/race change' Command an Uplink. 
+# Values <= 0 say to give NO uplink 
+# int: value without comma 
+# default: 3600 
+races_change_uplinkInSeconds: 3600
+
+# The name the Default Race should have. 
+# String: a text. Preferable a name 
+# default: DefaultRace 
+races_defaultrace_name: DefaultRace
+
+# The tag the Default Race should have. 
+# String: a text. Preferable a name 
+# default: '[NoRace]' 
+races_defaultrace_tag: '[NoRace]'
+
+# When this is set (not ''), whenever a player has no race,  
+# he will be pushed into the Race mentioned. 
+# Example: races_takeRaceWhenNoRace: 'Elf' would push the player to the Elf Race if he has no Race. 
+# HINT: leaving this empty (use ''), the default race will be selected 
+# String: a text. Preferable a race name or an empty String 
+# default: '' 
+races_takeRaceWhenNoRace: ''
+
+# When a player logs in and does not have a Race, the Race selection screen is shown. 
+# To disable this, set this option to: false 
+# boolean: true or false 
+# default: true 
+races_openRaceSelectionOnJoinWhenNoRace_enable: true
+
+# When a player logs in and does not have a Race, the Race selection screen is shown. 
+# When this option is true, the screen is reopened as long as he hasn't selected a Race. 
+# boolean: true or false 
+# default: true 
+races_cancleGUIExitWhenNoRacePresent_enable: true
+
+# The time between login and showing of the selection screen in secods. 
+# int: number without comma 
+# default: 2 
+races_openRaceSelectionOnJoinWhenNoRace_timeToOpenAfterLoginInSeconds: 2
+
+# This indicates if the GUI selection via Inventory menu should be used or the command selection. 
+# true = gui, false = command
+# boolean: true or false 
+# default: true 
+races_gui_enable: true
+
+
+#########
+#CLASSES#
+#########
+
+# Tells the plugin to enable classes. 
+# Setting this to false will deactivate the complete Class system.
+# boolean: true or false 
+# default: true 
+classes_enable: true
+
+# Tells the plugin to check for Permission for Each Class. 
+# The Permission is: 'RaC.classes.CLASSNAME' 
+# boolean: true or false 
+# default: false 
+classes_permissions_usePermissionsForEachClasses: false
+
+# Tells the plugin to check every class selection against a Race / Class matrix. 
+# The matrix can be found in: 'plugins/RacesAndClasses/racesClassesSelectionMatrix.yml'
+# Adding an entry looks like this: 
+# RACENAME: [CLASS1, CLASS2, CLASS3]
+# This means the race RACENAME can only select CLASS1, ClASS2 or CLASS3.
+# boolean: true or false 
+# default: false 
+classes_useRaceClassSelectionMatrix: false
+
+# When this is set (not ''), whenever a player has no class,  
+# he will be pushed into the class mentioned. 
+# Example: classes_takeClassWhenNoClass: 'Warrior' would push the player to the Warrior Class if he has no Class. 
+# HINT: leaving this empty (use ''), the default class will be selected 
+# String: a text. Preferable a Class name or an empty String 
+# default: '' 
+classes_takeClassWhenNoClass: ''
+
+# Tells the plugin to give the '/class change' Command an Uplink. 
+# Values <= 0 say to give NO uplink 
+# int: value without comma 
+# default: 3600 
+classes_change_uplinkInSeconds: 3600
+
+# When a player logs in and does not have a Class, the Class selection screen is shown. 
+# To disable this, set this option to: false 
+# boolean: true or false 
+# default: true 
+classes_openClassSelectionAfterRaceSelectionWhenNoClass_enable: true
+
+# When a player logs in and does not have a Class, the Class selection screen is shown. 
+# When this option is true, the screen is reopened as long as he hasn't selected a Class. 
+# boolean: true or false 
+# default: true 
+classes_cancleGUIExitWhenNoClassPresent_enable: true
+
+# This indicates if the GUI selection via Inventory menu should be used or the command selection. 
+# true = gui, false = command
+# boolean: true or false 
+# default: true 
+classes_gui_enable: true

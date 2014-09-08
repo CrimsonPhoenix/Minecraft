@@ -1,0 +1,35 @@
+{
+  "name": "Amestrius",
+  "description": "welcome to Amestrius my child. we are honor drive and love built. Join our family",
+  "createdAtMillis": 1400686547389,
+  "home": {
+    "w": "world",
+    "lx": 671.4310625827648,
+    "ly": 65.0,
+    "lz": 377.30000001192093,
+    "p": -8.684341,
+    "y": -178.49738
+  },
+  "invitedPlayerIds": [
+    "88a170ed-d178-4851-be4f-5dfc2ec461fa"
+  ],
+  "relationWishes": {
+    "53807349-7026-4a95-939e-5d57aa4a5625": "ALLY",
+    "2f620966-e3ab-48c1-a350-c4f2bda3b6db": "ALLY"
+  },
+  "perms": {
+    "BUILD": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "RECRUIT"
+    ],
+    "CONTAINER": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT"
+    ]
+  }
+}

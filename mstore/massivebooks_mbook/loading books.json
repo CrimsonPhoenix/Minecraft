@@ -1,0 +1,14 @@
+{
+  "item": {
+    "id": 387,
+    "name": "§fLoading Books §f§oby §fAdmin",
+    "title": "Loading Books",
+    "author": "Admin",
+    "pages": [
+      "      This book is about how to load server books. Loading server books will allow you to load up books that contain information about the plugins we use or world rules.",
+      "If you put in the command\n/book list\nyou will see the current books we have available.",
+      "    Loading Server Books\n\n1. Know the name of the book you would like to read from /book list.\n\n2. Hold a written book or book and quill in your hand.\n\n3. Enter the command \"/book load (book name)\" Of course entering the name of the book.",
+      "      When loading a book into a pre written book, you erase all writing from the old book.\n\n      Please load many of the other books to learn about the many plugins we have."
+    ]
+  }
+}

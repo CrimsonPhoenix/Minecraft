@@ -1,0 +1,34 @@
+portals:
+  ToSurvival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Mr_Admin_Guy
+    location: 497.0,3.0,-482.0:501.0,7.0,-482.0
+    world: CreativeRoom
+    destination: world
+  ToCreative:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Mr_Admin_Guy
+    location: 172.0,62.0,225.0:176.0,66.0,225.0
+    world: world
+    destination: CreativeRoom
+  End:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Mr_Admin_Guy
+    location: -2.0,80.0,-2.0:2.0,80.0,2.0
+    world: world_the_end
+    destination: world
